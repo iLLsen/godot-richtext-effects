@@ -1,5 +1,5 @@
 # rte_noise.gd
-# Effect: [noise]
+# Effect: [noise speed=0.5 intensity=0.2]
 # Description: Replicates a CUSTOMSTYLE 'Noise + Shimmer + Tilt' effect.
 # Note: Since RichTextEffect works on Glyphs (not pixels), the "Noise" is simulated 
 # via rapid character flickering rather than an SVG texture mask.

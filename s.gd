@@ -1,5 +1,5 @@
 # rte_swing.gd
-# Effect: [swing]
+# Effect: [swing radius=1 spread=0.1 speed=2.0]
 # Description: Replicates a CUSTOMSTYLE 'Swing' effect where a spotlight mask reveals 
 # rainbow gradient text while swinging from left to right.
 #

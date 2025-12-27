@@ -1,5 +1,5 @@
 # rte_variable.gd
-# Effect: [variable]
+# Effect: [variable scale_min=0.5 scale_max=1 speed=1.5]
 # Description: Replicates a CUSTOMSTYLE Variable Font animation where text "breathes" 
 # by expanding width and weight.
 # Note: Since Godot cannot animate Variable Font coordinates (wght/wdth) per-frame 
