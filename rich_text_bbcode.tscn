@@ -1,0 +1,1100 @@
+[gd_scene load_steps=67 format=3 uid="uid://oeg5vj7lpjw0"]
+
+[ext_resource type="Script" uid="uid://y5cc2nd5142s" path="res://rich_text_bbcode.gd" id="1"]
+[ext_resource type="Script" uid="uid://bb7p60fm74sxd" path="res://7.gd" id="2_y1knx"]
+[ext_resource type="Script" uid="uid://dll10lvlx081n" path="res://4.gd" id="3_53kqs"]
+[ext_resource type="Script" uid="uid://tifgu1ce57ag" path="res://9.gd" id="4_i7a11"]
+[ext_resource type="Script" uid="uid://qw6moxbw8hvf" path="res://5.gd" id="5_g8il4"]
+[ext_resource type="Script" uid="uid://ieb2a3p37mc3" path="res://10.gd" id="6_0tvr0"]
+[ext_resource type="Script" uid="uid://dm1n78vdyt35e" path="res://6.gd" id="7_c3fvd"]
+[ext_resource type="Script" uid="uid://cd7olw7kth16n" path="res://new_script.gd" id="8_n6vk7"]
+[ext_resource type="Script" uid="uid://wxj3hwl31lod" path="res://8.gd" id="9_gpb41"]
+[ext_resource type="Script" uid="uid://b2t1sj7imnat7" path="res://3.gd" id="10_5uoyw"]
+[ext_resource type="Script" uid="uid://bpn6e4nskyu64" path="res://new_script2.gd" id="11_22x38"]
+[ext_resource type="Script" uid="uid://cssm1pfljvcvc" path="res://g.gd" id="12_i7a11"]
+[ext_resource type="Script" uid="uid://cknac84xuc8ju" path="res://m.gd" id="13_g8il4"]
+[ext_resource type="Script" uid="uid://bfh852tadtke3" path="res://c.gd" id="14_g8il4"]
+[ext_resource type="Script" uid="uid://di1mr7u8c8bpg" path="res://h.gd" id="15_0tvr0"]
+[ext_resource type="Script" uid="uid://botgmydn71aqf" path="res://s.gd" id="16_c3fvd"]
+[ext_resource type="Script" uid="uid://bkffuvmwalt60" path="res://n.gd" id="17_n6vk7"]
+[ext_resource type="Script" uid="uid://c62byd6343uwq" path="res://sc.gd" id="18_gpb41"]
+[ext_resource type="Script" uid="uid://cammpus22jofn" path="res://f.gd" id="19_5uoyw"]
+[ext_resource type="Script" uid="uid://4rn7l6oc82fv" path="res://t.gd" id="20_22x38"]
+[ext_resource type="Script" uid="uid://cxgog6gl3uqo3" path="res://p.gd" id="21_ibsev"]
+[ext_resource type="Script" uid="uid://byf3165x27ejk" path="res://ma.gd" id="22_t1a68"]
+[ext_resource type="Script" uid="uid://bl0gagm0p66th" path="res://ne.gd" id="23_d3gj6"]
+[ext_resource type="Script" uid="uid://byv8655bll7ug" path="res://cs.gd" id="24_yvck8"]
+[ext_resource type="Script" uid="uid://ch4k22nf5d2j7" path="res://w.gd" id="25_yd5nl"]
+[ext_resource type="Script" uid="uid://bgxsbh7n4w16g" path="res://l.gd" id="26_6gko5"]
+[ext_resource type="Script" uid="uid://6w05i5yv3yae" path="res://fl.gd" id="27_1t7ua"]
+[ext_resource type="Script" uid="uid://n0ome7vn0kob" path="res://d.gd" id="28_emyya"]
+[ext_resource type="Script" uid="uid://pgmb3kn10r8b" path="res://dr.gd" id="29_t3t47"]
+[ext_resource type="Script" uid="uid://bfopvevtpuoe" path="res://sh.gd" id="30_jm0ex"]
+[ext_resource type="Script" uid="uid://c1b656j6gm1sb" path="res://pu.gd" id="31_vestg"]
+[ext_resource type="Script" uid="uid://2cid6554y2dv" path="res://dro.gd" id="32_t7mei"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_q1hwu"]
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_ibsev"]
+script = ExtResource("2_y1knx")
+metadata/_custom_type_script = "uid://bb7p60fm74sxd"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_t1a68"]
+script = ExtResource("3_53kqs")
+metadata/_custom_type_script = "uid://dll10lvlx081n"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_d3gj6"]
+script = ExtResource("4_i7a11")
+metadata/_custom_type_script = "uid://tifgu1ce57ag"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yvck8"]
+script = ExtResource("5_g8il4")
+metadata/_custom_type_script = "uid://qw6moxbw8hvf"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yd5nl"]
+script = ExtResource("6_0tvr0")
+metadata/_custom_type_script = "uid://ieb2a3p37mc3"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_6gko5"]
+script = ExtResource("7_c3fvd")
+metadata/_custom_type_script = "uid://dm1n78vdyt35e"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1t7ua"]
+script = ExtResource("8_n6vk7")
+metadata/_custom_type_script = "uid://cd7olw7kth16n"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_emyya"]
+script = ExtResource("9_gpb41")
+metadata/_custom_type_script = "uid://wxj3hwl31lod"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_t3t47"]
+script = ExtResource("10_5uoyw")
+metadata/_custom_type_script = "uid://b2t1sj7imnat7"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_jm0ex"]
+script = ExtResource("11_22x38")
+metadata/_custom_type_script = "uid://bpn6e4nskyu64"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0tvr0"]
+script = ExtResource("12_i7a11")
+metadata/_custom_type_script = "uid://cssm1pfljvcvc"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_c3fvd"]
+script = ExtResource("13_g8il4")
+metadata/_custom_type_script = "uid://cknac84xuc8ju"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_n6vk7"]
+script = ExtResource("14_g8il4")
+metadata/_custom_type_script = "uid://bfh852tadtke3"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_gpb41"]
+script = ExtResource("15_0tvr0")
+metadata/_custom_type_script = "uid://di1mr7u8c8bpg"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_5uoyw"]
+script = ExtResource("16_c3fvd")
+metadata/_custom_type_script = "uid://botgmydn71aqf"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_22x38"]
+script = ExtResource("17_n6vk7")
+metadata/_custom_type_script = "uid://bkffuvmwalt60"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_vestg"]
+script = ExtResource("18_gpb41")
+metadata/_custom_type_script = "uid://c62byd6343uwq"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_t7mei"]
+script = ExtResource("19_5uoyw")
+metadata/_custom_type_script = "uid://cammpus22jofn"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_kpiy0"]
+script = ExtResource("20_22x38")
+metadata/_custom_type_script = "uid://4rn7l6oc82fv"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_vhbtg"]
+script = ExtResource("21_ibsev")
+metadata/_custom_type_script = "uid://cxgog6gl3uqo3"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_dxmv8"]
+script = ExtResource("22_t1a68")
+metadata/_custom_type_script = "uid://byf3165x27ejk"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0jfyt"]
+script = ExtResource("23_d3gj6")
+metadata/_custom_type_script = "uid://bl0gagm0p66th"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_v2bj6"]
+script = ExtResource("24_yvck8")
+metadata/_custom_type_script = "uid://byv8655bll7ug"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_uhxlo"]
+script = ExtResource("25_yd5nl")
+metadata/_custom_type_script = "uid://ch4k22nf5d2j7"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_qtplu"]
+script = ExtResource("26_6gko5")
+metadata/_custom_type_script = "uid://bgxsbh7n4w16g"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1bxku"]
+script = ExtResource("27_1t7ua")
+metadata/_custom_type_script = "uid://6w05i5yv3yae"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yya0y"]
+script = ExtResource("28_emyya")
+metadata/_custom_type_script = "uid://n0ome7vn0kob"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1i8do"]
+script = ExtResource("29_t3t47")
+metadata/_custom_type_script = "uid://pgmb3kn10r8b"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_pmy6j"]
+script = ExtResource("30_jm0ex")
+metadata/_custom_type_script = "uid://bfopvevtpuoe"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_gopfo"]
+script = ExtResource("31_vestg")
+metadata/_custom_type_script = "uid://c1b656j6gm1sb"
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_tinhl"]
+script = ExtResource("32_t7mei")
+metadata/_custom_type_script = "uid://2cid6554y2dv"
+
+[sub_resource type="InputEventAction" id="InputEventAction_eu7pn"]
+action = &"toggle_pause"
+
+[sub_resource type="Shortcut" id="Shortcut_n2ck8"]
+events = [SubResource("InputEventAction_eu7pn")]
+
+[node name="RichTextBBCode" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -512.0
+offset_top = -300.0
+offset_right = 512.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+script = ExtResource("1")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 34.0
+offset_top = 34.0
+offset_right = -355.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+focus_mode = 2
+theme_override_colors/selection_color = Color(1, 1, 1, 0.164706)
+theme_override_constants/line_separation = 1
+theme_override_constants/table_h_separation = 120
+theme_override_constants/table_v_separation = 10
+theme_override_font_sizes/normal_font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_q1hwu")
+bbcode_enabled = true
+text = "[center]--- ENTRANCES & TRANSITIONS ---[/center]
+[reveal dist=-200.0 angle=0.0 duration=0.5 delay=3.1 repeat=0]YOUR TEXT HERE[/reveal]
+[reveal dist=200.0 angle=0.0 duration=0.5 delay=3.1 repeat=0]YOUR TEXT HERE[/reveal]
+[flip]LOADING[/flip]
+[typewriter speed=0.05 delay=1.0]Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua...[/typewriter]
+[variable scale_min=0.5 scale_max=1 speed=1.5]Subtle Weight Shift[/variable]
+
+[center]--- UI, ALERTS & HUD ---[/center]
+[marquee start=800 end=-780 speed=180][cshake speed=1.0 px=0.0 py=0.0]SYSTEM ALERT[/cshake]: REACTOR CORE [css style=v1]CRITICAL[/css] - EVACUATE IMMEDIATELY[/marquee]
+[legendary color=#ff0000 freq=5 dim=0.1][cshake speed=1.0 px=0.0 py=0.0]WRONG PASSWORD[/cshake][/legendary]
+[poor color=#478cbf freq=0.2 dim=0.4][press]GODOT ENGINE[/press][/poor]
+[neon]NEON SIGN OPEN / CLOSED[/neon]
+
+[center]--- CUSTOMSTYLE STYLE PRESETS ---[/center]
+[css style=v1]Level Complete[/css]
+[css style=v2]Washed out when long[/css]
+[css style=v3]Hide then Show[/css]
+[css style=v4]Epic Complete[/css]
+[css style=v5]Barely Finished[/css]
+[css style=v6]Level Failed[/css]
+[css style=v7]Level Complete S+++[/css]
+[css style=v8]Another Variation[/css]
+[bgcolor=black][css style=v3]REDACTED[/css][/bgcolor]
+
+[center]--- MOTION, LIGHTS & SHADERS ---[/center]
+[font_size=32][swing]SWINGING TEXT[/swing][/font_size]
+[swing width=40 radius=5 speed=0.8]Longer text needs a larger width parameter[/swing]
+[swing radius=1 spread=0.1 speed=2.0]Tight & Fast Spotlight[/swing]
+[swing width=10 radius=8 spread=5]Wide Soft Flash[/swing]
+
+[center]--- NOISE SHIMMER & TILT ---[/center]
+[font_size=40][noise]CUBE ROTATE[/noise][/font_size]
+[noise speed=0.5 intensity=0.2]Slow & Subtle Noise[/noise]
+[noise speed=2.0 intensity=0.8]Fast & High Grain[/noise]
+[noise]CornflowerBlue Base[/noise]
+
+[center]--- LIGHTS CUSTOMSTYLE ANIMATION ---[/center]
+[lights]Standard Lights (5s Loop)[/lights]
+[lights freq=2.0]Fast Lights (2.5s Loop)[/lights]
+[lights freq=0.5]Slow Lights (10s Loop)[/lights]
+
+[center]--- NESTED EFFECTS ---[/center]
+[center][ghost]This is a custom [matrix]effect[/matrix][/ghost] made in
+[pulse freq=5.0 height=2.0][pulse color=#00FFAA freq=2.0]GDScript[/pulse][/pulse].[/center]
+
+[center]--- ITEM QUALITY DEFAULTS ---[/center]
+[poor]Poor Quality[/poor]
+[uncommon]Uncommon Quality[/uncommon]
+[rare]Rare Quality[/rare]
+[epic]Epic Quality[/epic]
+[legendary]Legendary Quality[/legendary]
+[mythic]Mythic: The Amulet of Reality[/mythic]
+
+[center]--- ITEM QUALITY COLOR OVERRIDES ---[/center]
+[rare color=#ff0000]Rare Tag with Red Override[/rare]
+[legendary color=#ffffff shine_color=#ff0000]Legendary (White Base, Red Shine)[/legendary]
+[uncommon color=#00ffff]Uncommon (Cyan Override)[/uncommon]
+
+[center]--- STATUS EFFECTS ---[/center]
+[cursed]Cursed: Corrupted Ashsword[/cursed]
+[rad]Radioactive: Gnomish Waste[/rad]
+[ice]Frozen: Mammoth Tusk Fragment[/ice]
+[magma]Molten: Core of the Volcano[/magma]
+
+[center]--- PARAMETER TWEAKS ---[/center]
+[poor freq=10 dim=0.1]Severely Damaged Item (High Freq)[/poor]
+[legendary color=#ff00ff speed=5 width=2]Neon Cyber Katana (Pink fast shine)[/legendary]
+[rad freq=50]Radiation Pulse[/rad]
+
+[center]GODOT BUILTIN VARIATIONS[/center]
+[center]--- GROUP 1: SUBTLE (Slow colors, Pastel) ---[/center]
+[shake rate=1.0 level=1 connected=1][rainbow freq=0.2 sat=0.4 val=0.8]Subtle Breathe (Sync)[/rainbow][/shake]
+[shake rate=2.0 level=2 connected=0][rainbow freq=0.3 sat=0.5 val=0.9]Subtle Shiver (Async)[/rainbow][/shake]
+[shake rate=3.0 level=1 connected=1][rainbow freq=0.2 sat=0.3 val=0.7]Slow Pulse[/rainbow][/shake]
+[shake rate=4.0 level=2 connected=0][rainbow freq=0.4 sat=0.4 val=0.8]Soft Tremble[/rainbow][/shake]
+[shake rate=5.0 level=3 connected=1][rainbow freq=0.5 sat=0.5 val=0.9]Uneasy[/rainbow][/shake]
+[shake rate=2.5 level=2 connected=1][rainbow freq=0.25 sat=0.4 val=0.8]Gentle Float[/rainbow][/shake]
+[shake rate=3.5 level=1 connected=0][rainbow freq=0.35 sat=0.3 val=0.9]Micro Jitter[/rainbow][/shake]
+[shake rate=1.5 level=3 connected=1][rainbow freq=0.1 sat=0.5 val=0.7]Slow Wobble[/rainbow][/shake]
+[shake rate=4.5 level=2 connected=0][rainbow freq=0.45 sat=0.4 val=0.8]Nervous[/rainbow][/shake]
+[shake rate=5.0 level=1 connected=1][rainbow freq=0.5 sat=0.2 val=1.0]Tiny Vibration[/rainbow][/shake]
+
+[center]--- GROUP 2: STANDARD (Normal speed, Vivid) ---[/center]
+[shake rate=10.0 level=5 connected=1][rainbow freq=1.0 sat=0.8 val=0.8]Standard Shake[/rainbow][/shake]
+[shake rate=15.0 level=6 connected=0][rainbow freq=1.2 sat=0.8 val=0.8]Standard Async[/rainbow][/shake]
+[shake rate=20.0 level=5 connected=1][rainbow freq=1.5 sat=0.9 val=0.9]Rapid Standard[/rainbow][/shake]
+[shake rate=25.0 level=8 connected=0][rainbow freq=2.0 sat=1.0 val=1.0]High Emphasis[/rainbow][/shake]
+[shake rate=12.0 level=10 connected=1][rainbow freq=1.1 sat=0.7 val=0.8]Heavy Emphasis[/rainbow][/shake]
+[shake rate=18.0 level=7 connected=1][rainbow freq=1.3 sat=0.8 val=0.9]Alert[/rainbow][/shake]
+[shake rate=22.0 level=6 connected=0][rainbow freq=1.8 sat=0.9 val=0.8]Rattle[/rainbow][/shake]
+[shake rate=14.0 level=8 connected=1][rainbow freq=1.0 sat=1.0 val=0.5]Impact Low[/rainbow][/shake]
+[shake rate=28.0 level=9 connected=0][rainbow freq=2.5 sat=0.5 val=1.0]Impact High[/rainbow][/shake]
+[shake rate=16.0 level=5 connected=1][rainbow freq=1.0 sat=0.8 val=0.8]Dialog Shout[/rainbow][/shake]
+
+[center]--- GROUP 3: GLITCH (High speed, Neon/Strobe) ---[/center]
+[shake rate=50.0 level=2 connected=1][rainbow freq=5.0 sat=1.0 val=1.0]Electric Hum[/rainbow][/shake]
+[shake rate=60.0 level=3 connected=0][rainbow freq=6.0 sat=0.2 val=1.0]Static Noise[/rainbow][/shake]
+[shake rate=80.0 level=4 connected=1][rainbow freq=8.0 sat=1.0 val=1.0]System Failure[/rainbow][/shake]
+[shake rate=100.0 level=2 connected=0][rainbow freq=10.0 sat=0.5 val=1.0]High Frequency[/rainbow][/shake]
+[shake rate=45.0 level=5 connected=1][rainbow freq=4.0 sat=0.9 val=0.9]Glitch Text[/rainbow][/shake]
+[shake rate=70.0 level=3 connected=0][rainbow freq=7.0 sat=0.1 val=0.8]Signal Loss[/rainbow][/shake]
+[shake rate=90.0 level=1 connected=1][rainbow freq=9.0 sat=1.0 val=0.5]Buzzing[/rainbow][/shake]
+[shake rate=55.0 level=4 connected=0][rainbow freq=5.5 sat=0.8 val=1.0]Cybernetic[/rainbow][/shake]
+[shake rate=75.0 level=2 connected=1][rainbow freq=7.5 sat=0.4 val=0.9]Data Corrupt[/rainbow][/shake]
+[shake rate=65.0 level=5 connected=0][rainbow freq=6.5 sat=1.0 val=1.0]Short Circuit[/rainbow][/shake]
+
+[center]--- GROUP 4: HEAVY (Slow churn, Deep colors) ---[/center]
+[shake rate=5.0 level=15 connected=1][rainbow freq=0.5 sat=1.0 val=0.5]Earthquake[/rainbow][/shake]
+[shake rate=8.0 level=20 connected=0][rainbow freq=0.8 sat=0.9 val=0.6]Heavy Machinery[/rainbow][/shake]
+[shake rate=6.0 level=18 connected=1][rainbow freq=0.6 sat=1.0 val=0.4]Giant Step[/rainbow][/shake]
+[shake rate=10.0 level=25 connected=0][rainbow freq=1.0 sat=0.8 val=0.5]Structure Collapse[/rainbow][/shake]
+[shake rate=4.0 level=30 connected=1][rainbow freq=0.4 sat=1.0 val=0.3]Slow Displace[/rainbow][/shake]
+[shake rate=7.0 level=22 connected=0][rainbow freq=0.7 sat=0.9 val=0.7]Rolling Thunder[/rainbow][/shake]
+[shake rate=9.0 level=16 connected=1][rainbow freq=0.9 sat=0.6 val=0.4]Tank Tread[/rainbow][/shake]
+[shake rate=12.0 level=28 connected=0][rainbow freq=1.2 sat=1.0 val=0.6]Boulder Smash[/rainbow][/shake]
+[shake rate=3.0 level=35 connected=1][rainbow freq=0.3 sat=1.0 val=0.5]Drunk Camera[/rainbow][/shake]
+[shake rate=11.0 level=20 connected=0][rainbow freq=1.0 sat=0.7 val=0.4]Heavy Hit[/rainbow][/shake]
+
+[center]--- GROUP 5: CHAOS (Psychedelic speed, Max Saturation) ---[/center]
+[shake rate=30.0 level=20 connected=1][rainbow freq=3.0 sat=1.0 val=1.0]Panic[/rainbow][/shake]
+[shake rate=40.0 level=30 connected=0][rainbow freq=4.0 sat=1.0 val=1.0]Screaming[/rainbow][/shake]
+[shake rate=50.0 level=25 connected=1][rainbow freq=5.0 sat=1.0 val=1.0]Explosion[/rainbow][/shake]
+[shake rate=60.0 level=40 connected=0][rainbow freq=6.0 sat=1.0 val=1.0]Total Chaos[/rainbow][/shake]
+[shake rate=35.0 level=50 connected=1][rainbow freq=3.5 sat=1.0 val=1.0]Unreadable[/rainbow][/shake]
+[shake rate=45.0 level=35 connected=0][rainbow freq=4.5 sat=1.0 val=1.0]Violent[/rainbow][/shake]
+[shake rate=55.0 level=20 connected=1][rainbow freq=5.5 sat=1.0 val=1.0]Rapid Fire[/rainbow][/shake]
+[shake rate=65.0 level=45 connected=0][rainbow freq=6.5 sat=1.0 val=1.0]Screen Tear[/rainbow][/shake]
+[shake rate=42.0 level=28 connected=1][rainbow freq=4.2 sat=1.0 val=1.0]Berserk[/rainbow][/shake]
+[shake rate=70.0 level=30 connected=0][rainbow freq=10.0 sat=1.0 val=1.0]Critical Error[/rainbow][/shake]
+
+[center]--- TYPE A: TORNADO + RAINBOW (50 Variations) ---[/center]
+[tornado radius=2 freq=1 connected=1][rainbow freq=0.5 sat=0.5 val=1]TR-01 Gentle Breeze[/rainbow][/tornado]
+[tornado radius=4 freq=2 connected=0][rainbow freq=1.0 sat=0.8 val=0.8]TR-02 Loose Spin[/rainbow][/tornado]
+[tornado radius=5 freq=5 connected=1][rainbow freq=2.0 sat=1.0 val=1.0]TR-03 Fast Swirl[/rainbow][/tornado]
+[tornado radius=10 freq=1 connected=1][rainbow freq=0.2 sat=0.4 val=0.9]TR-04 Wide Slow[/rainbow][/tornado]
+[tornado radius=8 freq=3 connected=0][rainbow freq=1.5 sat=0.9 val=0.8]TR-05 Disconnected Loop[/rainbow][/tornado]
+[tornado radius=1 freq=8 connected=1][rainbow freq=3.0 sat=1.0 val=1.0]TR-06 Tight Drill[/rainbow][/tornado]
+[tornado radius=12 freq=0.5 connected=1][rainbow freq=0.1 sat=0.3 val=0.7]TR-07 Lazy Arc[/rainbow][/tornado]
+[tornado radius=3 freq=6 connected=0][rainbow freq=2.5 sat=0.8 val=1.0]TR-08 Jitter Spin[/rainbow][/tornado]
+[tornado radius=6 freq=2 connected=1][rainbow freq=0.8 sat=0.6 val=0.9]TR-09 Standard Mix[/rainbow][/tornado]
+[tornado radius=15 freq=1 connected=1][rainbow freq=0.5 sat=0.5 val=0.8]TR-10 Giant Ring[/rainbow][/tornado]
+[tornado radius=2 freq=10 connected=0][rainbow freq=5.0 sat=1.0 val=1.0]TR-11 Hyper Spin[/rainbow][/tornado]
+[tornado radius=5 freq=4 connected=1][rainbow freq=1.2 sat=0.7 val=0.9]TR-12 Wobbly[/rainbow][/tornado]
+[tornado radius=7 freq=3 connected=0][rainbow freq=1.8 sat=0.9 val=0.8]TR-13 Broken Circle[/rainbow][/tornado]
+[tornado radius=9 freq=2 connected=1][rainbow freq=0.6 sat=0.4 val=1.0]TR-14 Smooth Operator[/rainbow][/tornado]
+[tornado radius=20 freq=0.2 connected=1][rainbow freq=0.1 sat=0.2 val=0.6]TR-15 Massive Orbit[/rainbow][/tornado]
+[tornado radius=3 freq=5 connected=1][rainbow freq=2.2 sat=1.0 val=1.0]TR-16 Neon Drill[/rainbow][/tornado]
+[tornado radius=4 freq=7 connected=0][rainbow freq=3.5 sat=0.8 val=0.9]TR-17 Glitchy Helix[/rainbow][/tornado]
+[tornado radius=6 freq=1 connected=1][rainbow freq=0.4 sat=0.5 val=0.8]TR-18 Soft Turn[/rainbow][/tornado]
+[tornado radius=10 freq=4 connected=1][rainbow freq=1.5 sat=0.9 val=1.0]TR-19 High Energy[/rainbow][/tornado]
+[tornado radius=1 freq=9 connected=0][rainbow freq=4.0 sat=1.0 val=1.0]TR-20 Micro Buzz[/rainbow][/tornado]
+[tornado radius=8 freq=2 connected=1][rainbow freq=0.7 sat=0.6 val=0.9]TR-21 Flowing[/rainbow][/tornado]
+[tornado radius=5 freq=3 connected=0][rainbow freq=1.3 sat=0.8 val=0.8]TR-22 Scattered[/rainbow][/tornado]
+[tornado radius=12 freq=1 connected=1][rainbow freq=0.3 sat=0.4 val=0.7]TR-23 Wide Berth[/rainbow][/tornado]
+[tornado radius=2 freq=6 connected=1][rainbow freq=2.8 sat=1.0 val=1.0]TR-24 Fast & Tight[/rainbow][/tornado]
+[tornado radius=15 freq=5 connected=0][rainbow freq=3.0 sat=0.9 val=1.0]TR-25 Chaos Orbit[/rainbow][/tornado]
+[tornado radius=3 freq=1 connected=1][rainbow freq=0.2 sat=0.5 val=0.8]TR-26 Gentle Twist[/rainbow][/tornado]
+[tornado radius=6 freq=8 connected=1][rainbow freq=4.5 sat=1.0 val=1.0]TR-27 Turbo[/rainbow][/tornado]
+[tornado radius=9 freq=0.5 connected=0][rainbow freq=0.5 sat=0.3 val=0.6]TR-28 Laggy Spin[/rainbow][/tornado]
+[tornado radius=4 freq=4 connected=1][rainbow freq=1.6 sat=0.8 val=0.9]TR-29 Rhythmic[/rainbow][/tornado]
+[tornado radius=7 freq=2 connected=0][rainbow freq=0.9 sat=0.7 val=0.8]TR-30 Offset Spin[/rainbow][/tornado]
+[tornado radius=5 freq=9 connected=1][rainbow freq=5.0 sat=1.0 val=1.0]TR-31 Super Nova[/rainbow][/tornado]
+[tornado radius=10 freq=3 connected=1][rainbow freq=1.1 sat=0.6 val=0.9]TR-32 Big Wave[/rainbow][/tornado]
+[tornado radius=2 freq=2 connected=0][rainbow freq=0.8 sat=0.5 val=0.8]TR-33 Small Hop[/rainbow][/tornado]
+[tornado radius=12 freq=6 connected=1][rainbow freq=3.2 sat=0.9 val=1.0]TR-34 Wide Fast[/rainbow][/tornado]
+[tornado radius=8 freq=1 connected=0][rainbow freq=0.4 sat=0.4 val=0.7]TR-35 Drifting[/rainbow][/tornado]
+[tornado radius=3 freq=7 connected=1][rainbow freq=3.8 sat=1.0 val=1.0]TR-36 Buzzsaw[/rainbow][/tornado]
+[tornado radius=18 freq=0.8 connected=1][rainbow freq=0.2 sat=0.3 val=0.6]TR-37 Planet[/rainbow][/tornado]
+[tornado radius=6 freq=5 connected=0][rainbow freq=2.4 sat=0.8 val=0.9]TR-38 Broken Fast[/rainbow][/tornado]
+[tornado radius=4 freq=3 connected=1][rainbow freq=1.4 sat=0.7 val=0.8]TR-39 Moderate[/rainbow][/tornado]
+[tornado radius=9 freq=8 connected=1][rainbow freq=4.2 sat=1.0 val=1.0]TR-40 Vertigo[/rainbow][/tornado]
+[tornado radius=2 freq=4 connected=0][rainbow freq=1.7 sat=0.9 val=1.0]TR-41 Twitch[/rainbow][/tornado]
+[tornado radius=14 freq=2 connected=1][rainbow freq=0.6 sat=0.5 val=0.9]TR-42 Hula Hoop[/rainbow][/tornado]
+[tornado radius=5 freq=1 connected=0][rainbow freq=0.3 sat=0.4 val=0.8]TR-43 Lazy Async[/rainbow][/tornado]
+[tornado radius=7 freq=6 connected=1][rainbow freq=2.9 sat=0.9 val=1.0]TR-44 Cyclone[/rainbow][/tornado]
+[tornado radius=10 freq=9 connected=0][rainbow freq=4.8 sat=1.0 val=1.0]TR-45 Storm[/rainbow][/tornado]
+[tornado radius=1 freq=3 connected=1][rainbow freq=1.0 sat=0.6 val=0.8]TR-46 Tiny Turn[/rainbow][/tornado]
+[tornado radius=3 freq=2 connected=0][rainbow freq=0.7 sat=0.5 val=0.9]TR-47 Shifty[/rainbow][/tornado]
+[tornado radius=16 freq=4 connected=1][rainbow freq=1.9 sat=0.8 val=0.9]TR-48 Big Rhythm[/rainbow][/tornado]
+[tornado radius=8 freq=7 connected=1][rainbow freq=3.6 sat=1.0 val=1.0]TR-49 Turbine[/rainbow][/tornado]
+[tornado radius=5 freq=5 connected=0][rainbow freq=2.1 sat=0.9 val=0.8]TR-50 Scattered Fast[/rainbow][/tornado]
+
+[center]--- TYPE B: SHAKE + RAINBOW (50 Variations) ---[/center]
+[shake rate=5 level=5 connected=1][rainbow freq=0.5 sat=0.5 val=0.8]SR-51 Low Rumble[/rainbow][/shake]
+[shake rate=10 level=10 connected=0][rainbow freq=1.0 sat=0.8 val=0.9]SR-52 Jitterbox[/rainbow][/shake]
+[shake rate=20 level=5 connected=1][rainbow freq=1.5 sat=0.9 val=1.0]SR-53 Standard Vibe[/rainbow][/shake]
+[shake rate=30 level=2 connected=1][rainbow freq=2.0 sat=1.0 val=1.0]SR-54 Electric[/rainbow][/shake]
+[shake rate=40 level=20 connected=0][rainbow freq=3.0 sat=0.8 val=0.8]SR-55 Violent[/rainbow][/shake]
+[shake rate=50 level=1 connected=1][rainbow freq=4.0 sat=0.2 val=1.0]SR-56 Hum[/rainbow][/shake]
+[shake rate=2 level=2 connected=1][rainbow freq=0.2 sat=0.4 val=0.7]SR-57 Breathing[/rainbow][/shake]
+[shake rate=15 level=8 connected=0][rainbow freq=1.2 sat=0.7 val=0.9]SR-58 Crunchy[/rainbow][/shake]
+[shake rate=25 level=15 connected=1][rainbow freq=1.8 sat=0.9 val=1.0]SR-59 Impact[/rainbow][/shake]
+[shake rate=60 level=5 connected=0][rainbow freq=5.0 sat=1.0 val=1.0]SR-60 Glitch[/rainbow][/shake]
+[shake rate=8 level=25 connected=1][rainbow freq=0.6 sat=0.6 val=0.6]SR-61 Earthquake[/rainbow][/shake]
+[shake rate=35 level=10 connected=1][rainbow freq=2.5 sat=0.8 val=0.9]SR-62 Alert[/rainbow][/shake]
+[shake rate=45 level=30 connected=0][rainbow freq=3.5 sat=1.0 val=1.0]SR-63 Chaos[/rainbow][/shake]
+[shake rate=12 level=3 connected=1][rainbow freq=0.8 sat=0.5 val=0.8]SR-64 Nervous[/rainbow][/shake]
+[shake rate=55 level=2 connected=0][rainbow freq=4.5 sat=0.3 val=1.0]SR-65 Signal[/rainbow][/shake]
+[shake rate=5 level=40 connected=1][rainbow freq=0.4 sat=1.0 val=0.5]SR-66 Drunk[/rainbow][/shake]
+[shake rate=18 level=6 connected=1][rainbow freq=1.3 sat=0.7 val=0.9]SR-67 Talk[/rainbow][/shake]
+[shake rate=22 level=12 connected=0][rainbow freq=1.6 sat=0.8 val=0.8]SR-68 Rattling[/rainbow][/shake]
+[shake rate=28 level=4 connected=1][rainbow freq=2.2 sat=0.9 val=1.0]SR-69 Purring[/rainbow][/shake]
+[shake rate=70 level=50 connected=0][rainbow freq=6.0 sat=1.0 val=1.0]SR-70 DESTROY[/rainbow][/shake]
+[shake rate=3 level=1 connected=1][rainbow freq=0.1 sat=0.3 val=0.8]SR-71 Idle[/rainbow][/shake]
+[shake rate=9 level=9 connected=0][rainbow freq=0.9 sat=0.6 val=0.9]SR-72 Uneven[/rainbow][/shake]
+[shake rate=14 level=14 connected=1][rainbow freq=1.1 sat=0.8 val=0.8]SR-73 Bumpy[/rainbow][/shake]
+[shake rate=32 level=8 connected=1][rainbow freq=2.3 sat=1.0 val=1.0]SR-74 Energetic[/rainbow][/shake]
+[shake rate=42 level=18 connected=0][rainbow freq=3.2 sat=0.7 val=0.9]SR-75 Scramble[/rainbow][/shake]
+[shake rate=65 level=3 connected=1][rainbow freq=5.5 sat=0.2 val=1.0]SR-76 Buzz[/rainbow][/shake]
+[shake rate=6 level=30 connected=0][rainbow freq=0.5 sat=0.9 val=0.5]SR-77 Heavy Hit[/rainbow][/shake]
+[shake rate=16 level=5 connected=1][rainbow freq=1.0 sat=0.6 val=0.8]SR-78 Vocal[/rainbow][/shake]
+[shake rate=24 level=20 connected=0][rainbow freq=1.9 sat=1.0 val=1.0]SR-79 Smash[/rainbow][/shake]
+[shake rate=38 level=2 connected=1][rainbow freq=2.8 sat=0.5 val=0.9]SR-80 Tingle[/rainbow][/shake]
+[shake rate=48 level=35 connected=1][rainbow freq=4.0 sat=1.0 val=1.0]SR-81 Explosion[/rainbow][/shake]
+[shake rate=4 level=4 connected=0][rainbow freq=0.3 sat=0.4 val=0.7]SR-82 Cold[/rainbow][/shake]
+[shake rate=11 level=22 connected=1][rainbow freq=0.7 sat=0.8 val=0.6]SR-83 Stomp[/rainbow][/shake]
+[shake rate=26 level=7 connected=0][rainbow freq=2.0 sat=0.9 val=0.9]SR-84 Shiver[/rainbow][/shake]
+[shake rate=52 level=15 connected=1][rainbow freq=4.2 sat=1.0 val=1.0]SR-85 Critical[/rainbow][/shake]
+[shake rate=80 level=1 connected=1][rainbow freq=8.0 sat=0.1 val=1.0]SR-86 Humm High[/rainbow][/shake]
+[shake rate=7 level=8 connected=0][rainbow freq=0.6 sat=0.5 val=0.8]SR-87 Loose[/rainbow][/shake]
+[shake rate=19 level=3 connected=1][rainbow freq=1.4 sat=0.7 val=0.9]SR-88 Active[/rainbow][/shake]
+[shake rate=33 level=25 connected=0][rainbow freq=2.6 sat=0.9 val=0.8]SR-89 Crumble[/rainbow][/shake]
+[shake rate=44 level=4 connected=1][rainbow freq=3.4 sat=1.0 val=1.0]SR-90 Zap[/rainbow][/shake]
+[shake rate=13 level=2 connected=0][rainbow freq=0.8 sat=0.4 val=0.8]SR-91 Minor Glitch[/rainbow][/shake]
+[shake rate=29 level=16 connected=1][rainbow freq=2.1 sat=0.8 val=0.9]SR-92 Throbbing[/rainbow][/shake]
+[shake rate=58 level=40 connected=1][rainbow freq=5.0 sat=1.0 val=1.0]SR-93 Nuke[/rainbow][/shake]
+[shake rate=1 level=1 connected=1][rainbow freq=0.1 sat=0.2 val=0.9]SR-94 Still[/rainbow][/shake]
+[shake rate=21 level=11 connected=0][rainbow freq=1.5 sat=0.7 val=0.8]SR-95 Knock[/rainbow][/shake]
+[shake rate=36 level=6 connected=1][rainbow freq=2.7 sat=0.9 val=1.0]SR-96 Spark[/rainbow][/shake]
+[shake rate=46 level=22 connected=0][rainbow freq=3.8 sat=0.8 val=0.9]SR-97 Shred[/rainbow][/shake]
+[shake rate=62 level=4 connected=1][rainbow freq=4.8 sat=0.4 val=1.0]SR-98 Fuzz[/rainbow][/shake]
+[shake rate=100 level=2 connected=1][rainbow freq=10.0 sat=0.1 val=1.0]SR-99 Mosquito[/rainbow][/shake]
+[shake rate=50 level=50 connected=0][rainbow freq=5.0 sat=1.0 val=0.0]SR-100 Blackout[/rainbow][/shake]
+
+[center]--- TYPE C: TORNADO + SHAKE + RAINBOW (50 Variations) ---[/center]
+[shake rate=10 level=5][tornado radius=5 freq=2][rainbow freq=1]C-101 Wobble Spin[/rainbow][/tornado][/shake]
+[shake rate=20 level=2][tornado radius=3 freq=5][rainbow freq=2]C-102 Electric Coil[/rainbow][/tornado][/shake]
+[shake rate=5 level=10][tornado radius=8 freq=1][rainbow freq=0.5]C-103 Drunk Tornado[/rainbow][/tornado][/shake]
+[shake rate=30 level=5][tornado radius=2 freq=8][rainbow freq=3]C-104 Drill Bit[/rainbow][/tornado][/shake]
+[shake rate=15 level=15][tornado radius=10 freq=2][rainbow freq=1.5]C-105 Stormy[/rainbow][/tornado][/shake]
+[shake rate=40 level=3][tornado radius=4 freq=6][rainbow freq=4]C-106 Hyper Helix[/rainbow][/tornado][/shake]
+[shake rate=50 level=20][tornado radius=6 freq=4][rainbow freq=5]C-107 Chaos Vortex[/rainbow][/tornado][/shake]
+[shake rate=2 level=2][tornado radius=2 freq=1][rainbow freq=0.2]C-108 Subtle Sick[/rainbow][/tornado][/shake]
+[shake rate=25 level=8][tornado radius=5 freq=3][rainbow freq=2]C-109 Rough Spin[/rainbow][/tornado][/shake]
+[shake rate=60 level=5][tornado radius=1 freq=10][rainbow freq=6]C-110 Laser Beam[/rainbow][/tornado][/shake]
+[shake rate=8 level=5][tornado radius=12 freq=0.5][rainbow freq=0.8]C-111 Wide Shaky[/rainbow][/tornado][/shake]
+[shake rate=35 level=12][tornado radius=7 freq=5][rainbow freq=3.5]C-112 Violent Twist[/rainbow][/tornado][/shake]
+[shake rate=12 level=4][tornado radius=3 freq=2][rainbow freq=1.2]C-113 Uneasy Orbit[/rainbow][/tornado][/shake]
+[shake rate=45 level=30][tornado radius=15 freq=3][rainbow freq=4.5]C-114 Catastrophe[/rainbow][/tornado][/shake]
+[shake rate=4 level=1][tornado radius=4 freq=1][rainbow freq=0.4]C-115 Floating[/rainbow][/tornado][/shake]
+[shake rate=18 level=6][tornado radius=6 freq=4][rainbow freq=1.8]C-116 Active Ring[/rainbow][/tornado][/shake]
+[shake rate=22 level=10][tornado radius=9 freq=2][rainbow freq=2.2]C-117 Bumpy Ride[/rainbow][/tornado][/shake]
+[shake rate=55 level=2][tornado radius=2 freq=8][rainbow freq=5.5]C-118 Glitch Spiral[/rainbow][/tornado][/shake]
+[shake rate=5 level=25][tornado radius=5 freq=1][rainbow freq=0.5]C-119 Heavy Sway[/rainbow][/tornado][/shake]
+[shake rate=28 level=4][tornado radius=4 freq=5][rainbow freq=2.8]C-120 Energized[/rainbow][/tornado][/shake]
+[shake rate=70 level=40][tornado radius=10 freq=6][rainbow freq=7]C-121 MELTDOWN[/rainbow][/tornado][/shake]
+[shake rate=3 level=3][tornado radius=3 freq=1][rainbow freq=0.3]C-122 Softly Sick[/rainbow][/tornado][/shake]
+[shake rate=9 level=7][tornado radius=7 freq=2][rainbow freq=0.9]C-123 Off-Kilter[/rainbow][/tornado][/shake]
+[shake rate=14 level=5][tornado radius=5 freq=3][rainbow freq=1.4]C-124 Standard Mix[/rainbow][/tornado][/shake]
+[shake rate=32 level=15][tornado radius=8 freq=4][rainbow freq=3.2]C-125 Turbo Wash[/rainbow][/tornado][/shake]
+[shake rate=42 level=2][tornado radius=1 freq=9][rainbow freq=4.2]C-126 Micro Fuzz[/rainbow][/tornado][/shake]
+[shake rate=65 level=10][tornado radius=6 freq=5][rainbow freq=6.5]C-127 Screeching[/rainbow][/tornado][/shake]
+[shake rate=6 level=20][tornado radius=12 freq=1][rainbow freq=0.6]C-128 Big Rumble[/rainbow][/tornado][/shake]
+[shake rate=16 level=8][tornado radius=4 freq=3][rainbow freq=1.6]C-129 Agitated[/rainbow][/tornado][/shake]
+[shake rate=24 level=5][tornado radius=5 freq=6][rainbow freq=2.4]C-130 Fast Jitter[/rainbow][/tornado][/shake]
+[shake rate=38 level=25][tornado radius=9 freq=2][rainbow freq=3.8]C-131 Quake Spin[/rainbow][/tornado][/shake]
+[shake rate=48 level=5][tornado radius=3 freq=8][rainbow freq=4.8]C-132 Hyper Drive[/rainbow][/tornado][/shake]
+[shake rate=1 level=1][tornado radius=20 freq=0.2][rainbow freq=0.1]C-133 Solar System[/rainbow][/tornado][/shake]
+[shake rate=11 level=9][tornado radius=6 freq=2][rainbow freq=1.1]C-134 Clunky[/rainbow][/tornado][/shake]
+[shake rate=26 level=3][tornado radius=4 freq=4][rainbow freq=2.6]C-135 Zipper[/rainbow][/tornado][/shake]
+[shake rate=52 level=18][tornado radius=8 freq=5][rainbow freq=5.2]C-136 Shredder[/rainbow][/tornado][/shake]
+[shake rate=80 level=2][tornado radius=1 freq=2][rainbow freq=8]C-137 Static[/rainbow][/tornado][/shake]
+[shake rate=7 level=12][tornado radius=10 freq=1][rainbow freq=0.7]C-138 Wallowing[/rainbow][/tornado][/shake]
+[shake rate=19 level=4][tornado radius=5 freq=5][rainbow freq=1.9]C-139 Excited[/rainbow][/tornado][/shake]
+[shake rate=33 level=10][tornado radius=6 freq=3][rainbow freq=3.3]C-140 Turbulence[/rainbow][/tornado][/shake]
+[shake rate=44 level=22][tornado radius=12 freq=4][rainbow freq=4.4]C-141 Vortex[/rainbow][/tornado][/shake]
+[shake rate=13 level=3][tornado radius=3 freq=2][rainbow freq=1.3]C-142 Minor Wobble[/rainbow][/tornado][/shake]
+[shake rate=29 level=6][tornado radius=5 freq=6][rainbow freq=2.9]C-143 Pulsing[/rainbow][/tornado][/shake]
+[shake rate=58 level=50][tornado radius=15 freq=8][rainbow freq=6]C-144 SINGULARITY[/rainbow][/tornado][/shake]
+[shake rate=10 level=2][tornado radius=2 freq=1][rainbow freq=1]C-145 Gentle[/rainbow][/tornado][/shake]
+[shake rate=21 level=8][tornado radius=7 freq=3][rainbow freq=2.1]C-146 Rough Ride[/rainbow][/tornado][/shake]
+[shake rate=36 level=5][tornado radius=4 freq=7][rainbow freq=3.6]C-147 Frenzy[/rainbow][/tornado][/shake]
+[shake rate=46 level=15][tornado radius=8 freq=4][rainbow freq=4.6]C-148 Grinder[/rainbow][/tornado][/shake]
+[shake rate=62 level=3][tornado radius=2 freq=9][rainbow freq=6.2]C-149 White Noise[/rainbow][/tornado][/shake]
+[shake rate=90 level=10][tornado radius=5 freq=5][rainbow freq=9]C-150 MAX OUTPUT[/rainbow][/tornado][/shake]
+
+[center]--- ENTRANCE WRAPPERS ---[/center]
+[reveal][drop_in]Reveal + DropIn[/drop_in][/reveal]
+[reveal][typewriter]Reveal + Typewriter[/typewriter][/reveal]
+[reveal][flip]Reveal + Flip[/flip][/reveal]
+[reveal][variable]Reveal + Variable[/variable][/reveal]
+[reveal][swing]Reveal + Swing[/swing][/reveal]
+[reveal][noise]Reveal + Noise[/noise][/reveal]
+[reveal][lights]Reveal + Lights[/lights][/reveal]
+[reveal][ghost]Reveal + Ghost[/ghost][/reveal]
+[reveal][matrix]Reveal + Matrix[/matrix][/reveal]
+[reveal][pulse]Reveal + Pulse[/pulse][/reveal]
+[reveal][rainbow]Reveal + Rainbow[/rainbow][/reveal]
+[reveal][tornado]Reveal + Tornado[/tornado][/reveal]
+[reveal][shake]Reveal + Shake[/shake][/reveal]
+[reveal][cshake]Reveal + CShake[/cshake][/reveal]
+[reveal][neon]Reveal + Neon[/neon][/reveal]
+[reveal][rad]Reveal + Rad[/rad][/reveal]
+[reveal][press]Reveal + Press[/press][/reveal]
+
+[drop_in][reveal]DropIn + Reveal[/reveal][/drop_in]
+[drop_in][typewriter]DropIn + Typewriter[/typewriter][/drop_in]
+[drop_in][flip]DropIn + Flip[/flip][/drop_in]
+[drop_in][variable]DropIn + Variable[/variable][/drop_in]
+[drop_in][swing]DropIn + Swing[/swing][/drop_in]
+[drop_in][noise]DropIn + Noise[/noise][/drop_in]
+[drop_in][lights]DropIn + Lights[/lights][/drop_in]
+[drop_in][ghost]DropIn + Ghost[/ghost][/drop_in]
+[drop_in][matrix]DropIn + Matrix[/matrix][/drop_in]
+[drop_in][pulse]DropIn + Pulse[/pulse][/drop_in]
+[drop_in][rainbow]DropIn + Rainbow[/rainbow][/drop_in]
+[drop_in][tornado]DropIn + Tornado[/tornado][/drop_in]
+[drop_in][shake]DropIn + Shake[/shake][/drop_in]
+[drop_in][cshake]DropIn + CShake[/cshake][/drop_in]
+[drop_in][neon]DropIn + Neon[/neon][/drop_in]
+[drop_in][rad]DropIn + Rad[/rad][/drop_in]
+[drop_in][press]DropIn + Press[/press][/drop_in]
+
+[typewriter][reveal]Typewriter + Reveal[/reveal][/typewriter]
+[typewriter][drop_in]Typewriter + DropIn[/drop_in][/typewriter]
+[typewriter][flip]Typewriter + Flip[/flip][/typewriter]
+[typewriter][variable]Typewriter + Variable[/variable][/typewriter]
+[typewriter][swing]Typewriter + Swing[/swing][/typewriter]
+[typewriter][noise]Typewriter + Noise[/noise][/typewriter]
+[typewriter][lights]Typewriter + Lights[/lights][/typewriter]
+[typewriter][ghost]Typewriter + Ghost[/ghost][/typewriter]
+[typewriter][matrix]Typewriter + Matrix[/matrix][/typewriter]
+[typewriter][pulse]Typewriter + Pulse[/pulse][/typewriter]
+[typewriter][rainbow]Typewriter + Rainbow[/rainbow][/typewriter]
+[typewriter][tornado]Typewriter + Tornado[/tornado][/typewriter]
+[typewriter][shake]Typewriter + Shake[/shake][/typewriter]
+[typewriter][cshake]Typewriter + CShake[/cshake][/typewriter]
+[typewriter][neon]Typewriter + Neon[/neon][/typewriter]
+[typewriter][rad]Typewriter + Rad[/rad][/typewriter]
+
+[flip][reveal]Flip + Reveal[/reveal][/flip]
+[flip][drop_in]Flip + DropIn[/drop_in][/flip]
+[flip][typewriter]Flip + Typewriter[/typewriter][/flip]
+[flip][variable]Flip + Variable[/variable][/flip]
+[flip][swing]Flip + Swing[/swing][/flip]
+[flip][noise]Flip + Noise[/noise][/flip]
+[flip][lights]Flip + Lights[/lights][/flip]
+[flip][ghost]Flip + Ghost[/ghost][/flip]
+[flip][matrix]Flip + Matrix[/matrix][/flip]
+[flip][pulse]Flip + Pulse[/pulse][/flip]
+[flip][rainbow]Flip + Rainbow[/rainbow][/flip]
+[flip][tornado]Flip + Tornado[/tornado][/flip]
+[flip][shake]Flip + Shake[/shake][/flip]
+[flip][cshake]Flip + CShake[/cshake][/flip]
+[flip][neon]Flip + Neon[/neon][/flip]
+[flip][rad]Flip + Rad[/rad][/flip]
+
+[center]--- MOTION WRAPPERS ---[/center]
+[swing][reveal]Swing + Reveal[/reveal][/swing]
+[swing][drop_in]Swing + DropIn[/drop_in][/swing]
+[swing][typewriter]Swing + Typewriter[/typewriter][/swing]
+[swing][flip]Swing + Flip[/flip][/swing]
+[swing][variable]Swing + Variable[/variable][/swing]
+[swing][noise]Swing + Noise[/noise][/swing]
+[swing][lights]Swing + Lights[/lights][/swing]
+[swing][ghost]Swing + Ghost[/ghost][/swing]
+[swing][matrix]Swing + Matrix[/matrix][/swing]
+[swing][pulse]Swing + Pulse[/pulse][/swing]
+[swing][rainbow]Swing + Rainbow[/rainbow][/swing]
+[swing][tornado]Swing + Tornado[/tornado][/swing]
+[swing][shake]Swing + Shake[/shake][/swing]
+[swing][cshake]Swing + CShake[/cshake][/swing]
+[swing][neon]Swing + Neon[/neon][/swing]
+[swing][rad]Swing + Rad[/rad][/swing]
+
+[tornado][reveal]Tornado + Reveal[/reveal][/tornado]
+[tornado][drop_in]Tornado + DropIn[/drop_in][/tornado]
+[tornado][typewriter]Tornado + Typewriter[/typewriter][/tornado]
+[tornado][flip]Tornado + Flip[/flip][/tornado]
+[tornado][variable]Tornado + Variable[/variable][/tornado]
+[tornado][swing]Tornado + Swing[/swing][/tornado]
+[tornado][noise]Tornado + Noise[/noise][/tornado]
+[tornado][lights]Tornado + Lights[/lights][/tornado]
+[tornado][ghost]Tornado + Ghost[/ghost][/tornado]
+[tornado][matrix]Tornado + Matrix[/matrix][/tornado]
+[tornado][pulse]Tornado + Pulse[/pulse][/tornado]
+[tornado][rainbow]Tornado + Rainbow[/rainbow][/tornado]
+[tornado][shake]Tornado + Shake[/shake][/tornado]
+[tornado][cshake]Tornado + CShake[/cshake][/tornado]
+[tornado][neon]Tornado + Neon[/neon][/tornado]
+[tornado][rad]Tornado + Rad[/rad][/tornado]
+
+[shake][reveal]Shake + Reveal[/reveal][/shake]
+[shake][drop_in]Shake + DropIn[/drop_in][/shake]
+[shake][typewriter]Shake + Typewriter[/typewriter][/shake]
+[shake][flip]Shake + Flip[/flip][/shake]
+[shake][variable]Shake + Variable[/variable][/shake]
+[shake][swing]Shake + Swing[/swing][/shake]
+[shake][noise]Shake + Noise[/noise][/shake]
+[shake][lights]Shake + Lights[/lights][/shake]
+[shake][ghost]Shake + Ghost[/ghost][/shake]
+[shake][matrix]Shake + Matrix[/matrix][/shake]
+[shake][pulse]Shake + Pulse[/pulse][/shake]
+[shake][rainbow]Shake + Rainbow[/rainbow][/shake]
+[shake][tornado]Shake + Tornado[/tornado][/shake]
+[shake][cshake]Shake + CShake[/cshake][/shake]
+[shake][neon]Shake + Neon[/neon][/shake]
+[shake][rad]Shake + Rad[/rad][/shake]
+
+[cshake][reveal]CShake + Reveal[/reveal][/cshake]
+[cshake][drop_in]CShake + DropIn[/drop_in][/cshake]
+[cshake][typewriter]CShake + Typewriter[/typewriter][/cshake]
+[cshake][flip]CShake + Flip[/flip][/cshake]
+[cshake][variable]CShake + Variable[/variable][/cshake]
+[cshake][swing]CShake + Swing[/swing][/cshake]
+[cshake][noise]CShake + Noise[/noise][/cshake]
+[cshake][lights]CShake + Lights[/lights][/cshake]
+[cshake][ghost]CShake + Ghost[/ghost][/cshake]
+[cshake][matrix]CShake + Matrix[/matrix][/cshake]
+[cshake][pulse]CShake + Pulse[/pulse][/cshake]
+[cshake][rainbow]CShake + Rainbow[/rainbow][/cshake]
+[cshake][tornado]CShake + Tornado[/tornado][/cshake]
+[cshake][shake]CShake + Shake[/shake][/cshake]
+[cshake][neon]CShake + Neon[/neon][/cshake]
+[cshake][rad]CShake + Rad[/rad][/cshake]
+
+[variable][reveal]Variable + Reveal[/reveal][/variable]
+[variable][drop_in]Variable + DropIn[/drop_in][/variable]
+[variable][flip]Variable + Flip[/flip][/variable]
+[variable][swing]Variable + Swing[/swing][/variable]
+[variable][noise]Variable + Noise[/noise][/variable]
+[variable][lights]Variable + Lights[/lights][/variable]
+[variable][ghost]Variable + Ghost[/ghost][/variable]
+[variable][matrix]Variable + Matrix[/matrix][/variable]
+[variable][pulse]Variable + Pulse[/pulse][/variable]
+[variable][rainbow]Variable + Rainbow[/rainbow][/variable]
+[variable][tornado]Variable + Tornado[/tornado][/variable]
+[variable][shake]Variable + Shake[/shake][/variable]
+[variable][cshake]Variable + CShake[/cshake][/variable]
+[variable][neon]Variable + Neon[/neon][/variable]
+[variable][rad]Variable + Rad[/rad][/variable]
+
+[pulse][reveal]Pulse + Reveal[/reveal][/pulse]
+[pulse][drop_in]Pulse + DropIn[/drop_in][/pulse]
+[pulse][flip]Pulse + Flip[/flip][/pulse]
+[pulse][swing]Pulse + Swing[/swing][/pulse]
+[pulse][noise]Pulse + Noise[/noise][/pulse]
+[pulse][lights]Pulse + Lights[/lights][/pulse]
+[pulse][ghost]Pulse + Ghost[/ghost][/pulse]
+[pulse][matrix]Pulse + Matrix[/matrix][/pulse]
+[pulse][rainbow]Pulse + Rainbow[/rainbow][/pulse]
+[pulse][tornado]Pulse + Tornado[/tornado][/pulse]
+[pulse][shake]Pulse + Shake[/shake][/pulse]
+[pulse][cshake]Pulse + CShake[/cshake][/pulse]
+[pulse][neon]Pulse + Neon[/neon][/pulse]
+[pulse][rad]Pulse + Rad[/rad][/pulse]
+
+[center]--- SHADER & LIGHT WRAPPERS ---[/center]
+[rainbow][reveal]Rainbow + Reveal[/reveal][/rainbow]
+[rainbow][drop_in]Rainbow + DropIn[/drop_in][/rainbow]
+[rainbow][typewriter]Rainbow + Typewriter[/typewriter][/rainbow]
+[rainbow][flip]Rainbow + Flip[/flip][/rainbow]
+[rainbow][variable]Rainbow + Variable[/variable][/rainbow]
+[rainbow][swing]Rainbow + Swing[/swing][/rainbow]
+[rainbow][noise]Rainbow + Noise[/noise][/rainbow]
+[rainbow][lights]Rainbow + Lights[/lights][/rainbow]
+[rainbow][ghost]Rainbow + Ghost[/ghost][/rainbow]
+[rainbow][matrix]Rainbow + Matrix[/matrix][/rainbow]
+[rainbow][pulse]Rainbow + Pulse[/pulse][/rainbow]
+[rainbow][tornado]Rainbow + Tornado[/tornado][/rainbow]
+[rainbow][shake]Rainbow + Shake[/shake][/rainbow]
+[rainbow][cshake]Rainbow + CShake[/cshake][/rainbow]
+[rainbow][neon]Rainbow + Neon[/neon][/rainbow]
+[rainbow][rad]Rainbow + Rad[/rad][/rainbow]
+
+[ghost][reveal]Ghost + Reveal[/reveal][/ghost]
+[ghost][drop_in]Ghost + DropIn[/drop_in][/ghost]
+[ghost][typewriter]Ghost + Typewriter[/typewriter][/ghost]
+[ghost][flip]Ghost + Flip[/flip][/ghost]
+[ghost][variable]Ghost + Variable[/variable][/ghost]
+[ghost][swing]Ghost + Swing[/swing][/ghost]
+[ghost][noise]Ghost + Noise[/noise][/ghost]
+[ghost][lights]Ghost + Lights[/lights][/ghost]
+[ghost][matrix]Ghost + Matrix[/matrix][/ghost]
+[ghost][pulse]Ghost + Pulse[/pulse][/ghost]
+[ghost][rainbow]Ghost + Rainbow[/rainbow][/ghost]
+[ghost][tornado]Ghost + Tornado[/tornado][/ghost]
+[ghost][shake]Ghost + Shake[/shake][/ghost]
+[ghost][cshake]Ghost + CShake[/cshake][/ghost]
+[ghost][neon]Ghost + Neon[/neon][/ghost]
+[ghost][rad]Ghost + Rad[/rad][/ghost]
+
+[matrix][reveal]Matrix + Reveal[/reveal][/matrix]
+[matrix][drop_in]Matrix + DropIn[/drop_in][/matrix]
+[matrix][typewriter]Matrix + Typewriter[/typewriter][/matrix]
+[matrix][flip]Matrix + Flip[/flip][/matrix]
+[matrix][variable]Matrix + Variable[/variable][/matrix]
+[matrix][swing]Matrix + Swing[/swing][/matrix]
+[matrix][noise]Matrix + Noise[/noise][/matrix]
+[matrix][lights]Matrix + Lights[/lights][/matrix]
+[matrix][ghost]Matrix + Ghost[/ghost][/matrix]
+[matrix][pulse]Matrix + Pulse[/pulse][/matrix]
+[matrix][rainbow]Matrix + Rainbow[/rainbow][/matrix]
+[matrix][tornado]Matrix + Tornado[/tornado][/matrix]
+[matrix][shake]Matrix + Shake[/shake][/matrix]
+[matrix][cshake]Matrix + CShake[/cshake][/matrix]
+[matrix][neon]Matrix + Neon[/neon][/matrix]
+[matrix][rad]Matrix + Rad[/rad][/matrix]
+
+[noise][reveal]Noise + Reveal[/reveal][/noise]
+[noise][drop_in]Noise + DropIn[/drop_in][/noise]
+[noise][typewriter]Noise + Typewriter[/typewriter][/noise]
+[noise][flip]Noise + Flip[/flip][/noise]
+[noise][variable]Noise + Variable[/variable][/noise]
+[noise][swing]Noise + Swing[/swing][/noise]
+[noise][lights]Noise + Lights[/lights][/noise]
+[noise][ghost]Noise + Ghost[/ghost][/noise]
+[noise][matrix]Noise + Matrix[/matrix][/noise]
+[noise][pulse]Noise + Pulse[/pulse][/noise]
+[noise][rainbow]Noise + Rainbow[/rainbow][/noise]
+[noise][tornado]Noise + Tornado[/tornado][/noise]
+[noise][shake]Noise + Shake[/shake][/noise]
+[noise][cshake]Noise + CShake[/cshake][/noise]
+[noise][neon]Noise + Neon[/neon][/noise]
+[noise][rad]Noise + Rad[/rad][/noise]
+
+[lights][reveal]Lights + Reveal[/reveal][/lights]
+[lights][drop_in]Lights + DropIn[/drop_in][/lights]
+[lights][typewriter]Lights + Typewriter[/typewriter][/lights]
+[lights][flip]Lights + Flip[/flip][/lights]
+[lights][variable]Lights + Variable[/variable][/lights]
+[lights][swing]Lights + Swing[/swing][/lights]
+[lights][noise]Lights + Noise[/noise][/lights]
+[lights][ghost]Lights + Ghost[/ghost][/lights]
+[lights][matrix]Lights + Matrix[/matrix][/lights]
+[lights][pulse]Lights + Pulse[/pulse][/lights]
+[lights][rainbow]Lights + Rainbow[/rainbow][/lights]
+[lights][tornado]Lights + Tornado[/tornado][/lights]
+[lights][shake]Lights + Shake[/shake][/lights]
+[lights][cshake]Lights + CShake[/cshake][/lights]
+[lights][neon]Lights + Neon[/neon][/lights]
+[lights][rad]Lights + Rad[/rad][/lights]
+
+[neon][reveal]Neon + Reveal[/reveal][/neon]
+[neon][drop_in]Neon + DropIn[/drop_in][/neon]
+[neon][typewriter]Neon + Typewriter[/typewriter][/neon]
+[neon][flip]Neon + Flip[/flip][/neon]
+[neon][variable]Neon + Variable[/variable][/neon]
+[neon][swing]Neon + Swing[/swing][/neon]
+[neon][noise]Neon + Noise[/noise][/neon]
+[neon][lights]Neon + Lights[/lights][/neon]
+[neon][ghost]Neon + Ghost[/ghost][/neon]
+[neon][matrix]Neon + Matrix[/matrix][/neon]
+[neon][pulse]Neon + Pulse[/pulse][/neon]
+[neon][rainbow]Neon + Rainbow[/rainbow][/neon]
+[neon][tornado]Neon + Tornado[/tornado][/neon]
+[neon][shake]Neon + Shake[/shake][/neon]
+[neon][cshake]Neon + CShake[/cshake][/neon]
+[neon][rad]Neon + Rad[/rad][/neon]
+
+[center]--- RPG SYSTEM WRAPPERS ---[/center]
+[legendary][reveal]Legendary + Reveal[/reveal][/legendary]
+[legendary][drop_in]Legendary + DropIn[/drop_in][/legendary]
+[legendary][typewriter]Legendary + Typewriter[/typewriter][/legendary]
+[legendary][flip]Legendary + Flip[/flip][/legendary]
+[legendary][variable]Legendary + Variable[/variable][/legendary]
+[legendary][swing]Legendary + Swing[/swing][/legendary]
+[legendary][noise]Legendary + Noise[/noise][/legendary]
+[legendary][lights]Legendary + Lights[/lights][/legendary]
+[legendary][ghost]Legendary + Ghost[/ghost][/legendary]
+[legendary][matrix]Legendary + Matrix[/matrix][/legendary]
+[legendary][pulse]Legendary + Pulse[/pulse][/legendary]
+[legendary][rainbow]Legendary + Rainbow[/rainbow][/legendary]
+[legendary][tornado]Legendary + Tornado[/tornado][/legendary]
+[legendary][shake]Legendary + Shake[/shake][/legendary]
+[legendary][cshake]Legendary + CShake[/cshake][/legendary]
+[legendary][neon]Legendary + Neon[/neon][/legendary]
+[legendary][rad]Legendary + Rad[/rad][/legendary]
+[legendary][cursed]Legendary + Cursed[/cursed][/legendary]
+[legendary][ice]Legendary + Ice[/ice][/legendary]
+[legendary][magma]Legendary + Magma[/magma][/legendary]
+
+[poor][reveal]Poor + Reveal[/reveal][/poor]
+[poor][drop_in]Poor + DropIn[/drop_in][/poor]
+[poor][typewriter]Poor + Typewriter[/typewriter][/poor]
+[poor][flip]Poor + Flip[/flip][/poor]
+[poor][variable]Poor + Variable[/variable][/poor]
+[poor][swing]Poor + Swing[/swing][/poor]
+[poor][noise]Poor + Noise[/noise][/poor]
+[poor][lights]Poor + Lights[/lights][/poor]
+[poor][ghost]Poor + Ghost[/ghost][/poor]
+[poor][matrix]Poor + Matrix[/matrix][/poor]
+[poor][pulse]Poor + Pulse[/pulse][/poor]
+[poor][rainbow]Poor + Rainbow[/rainbow][/poor]
+[poor][tornado]Poor + Tornado[/tornado][/poor]
+[poor][shake]Poor + Shake[/shake][/poor]
+[poor][cshake]Poor + CShake[/cshake][/poor]
+[poor][neon]Poor + Neon[/neon][/poor]
+[poor][rad]Poor + Rad[/rad][/poor]
+[poor][cursed]Poor + Cursed[/cursed][/poor]
+[poor][ice]Poor + Ice[/ice][/poor]
+[poor][magma]Poor + Magma[/magma][/poor]
+
+[uncommon][reveal]Uncommon + Reveal[/reveal][/uncommon]
+[uncommon][drop_in]Uncommon + DropIn[/drop_in][/uncommon]
+[uncommon][typewriter]Uncommon + Typewriter[/typewriter][/uncommon]
+[uncommon][flip]Uncommon + Flip[/flip][/uncommon]
+[uncommon][variable]Uncommon + Variable[/variable][/uncommon]
+[uncommon][swing]Uncommon + Swing[/swing][/uncommon]
+[uncommon][noise]Uncommon + Noise[/noise][/uncommon]
+[uncommon][lights]Uncommon + Lights[/lights][/uncommon]
+[uncommon][ghost]Uncommon + Ghost[/ghost][/uncommon]
+[uncommon][matrix]Uncommon + Matrix[/matrix][/uncommon]
+[uncommon][pulse]Uncommon + Pulse[/pulse][/uncommon]
+[uncommon][rainbow]Uncommon + Rainbow[/rainbow][/uncommon]
+[uncommon][tornado]Uncommon + Tornado[/tornado][/uncommon]
+[uncommon][shake]Uncommon + Shake[/shake][/uncommon]
+[uncommon][cshake]Uncommon + CShake[/cshake][/uncommon]
+[uncommon][neon]Uncommon + Neon[/neon][/uncommon]
+[uncommon][rad]Uncommon + Rad[/rad][/uncommon]
+
+[rare][reveal]Rare + Reveal[/reveal][/rare]
+[rare][drop_in]Rare + DropIn[/drop_in][/rare]
+[rare][typewriter]Rare + Typewriter[/typewriter][/rare]
+[rare][flip]Rare + Flip[/flip][/rare]
+[rare][variable]Rare + Variable[/variable][/rare]
+[rare][swing]Rare + Swing[/swing][/rare]
+[rare][noise]Rare + Noise[/noise][/rare]
+[rare][lights]Rare + Lights[/lights][/rare]
+[rare][ghost]Rare + Ghost[/ghost][/rare]
+[rare][matrix]Rare + Matrix[/matrix][/rare]
+[rare][pulse]Rare + Pulse[/pulse][/rare]
+[rare][rainbow]Rare + Rainbow[/rainbow][/rare]
+[rare][tornado]Rare + Tornado[/tornado][/rare]
+[rare][shake]Rare + Shake[/shake][/rare]
+[rare][cshake]Rare + CShake[/cshake][/rare]
+[rare][neon]Rare + Neon[/neon][/rare]
+[rare][rad]Rare + Rad[/rad][/rare]
+
+[epic][reveal]Epic + Reveal[/reveal][/epic]
+[epic][drop_in]Epic + DropIn[/drop_in][/epic]
+[epic][typewriter]Epic + Typewriter[/typewriter][/epic]
+[epic][flip]Epic + Flip[/flip][/epic]
+[epic][variable]Epic + Variable[/variable][/epic]
+[epic][swing]Epic + Swing[/swing][/epic]
+[epic][noise]Epic + Noise[/noise][/epic]
+[epic][lights]Epic + Lights[/lights][/epic]
+[epic][ghost]Epic + Ghost[/ghost][/epic]
+[epic][matrix]Epic + Matrix[/matrix][/epic]
+[epic][pulse]Epic + Pulse[/pulse][/epic]
+[epic][rainbow]Epic + Rainbow[/rainbow][/epic]
+[epic][tornado]Epic + Tornado[/tornado][/epic]
+[epic][shake]Epic + Shake[/shake][/epic]
+[epic][cshake]Epic + CShake[/cshake][/epic]
+[epic][neon]Epic + Neon[/neon][/epic]
+[epic][rad]Epic + Rad[/rad][/epic]
+
+[mythic][reveal]Mythic + Reveal[/reveal][/mythic]
+[mythic][drop_in]Mythic + DropIn[/drop_in][/mythic]
+[mythic][typewriter]Mythic + Typewriter[/typewriter][/mythic]
+[mythic][flip]Mythic + Flip[/flip][/mythic]
+[mythic][variable]Mythic + Variable[/variable][/mythic]
+[mythic][swing]Mythic + Swing[/swing][/mythic]
+[mythic][noise]Mythic + Noise[/noise][/mythic]
+[mythic][lights]Mythic + Lights[/lights][/mythic]
+[mythic][ghost]Mythic + Ghost[/ghost][/mythic]
+[mythic][matrix]Mythic + Matrix[/matrix][/mythic]
+[mythic][pulse]Mythic + Pulse[/pulse][/mythic]
+[mythic][rainbow]Mythic + Rainbow[/rainbow][/mythic]
+[mythic][tornado]Mythic + Tornado[/tornado][/mythic]
+[mythic][shake]Mythic + Shake[/shake][/mythic]
+[mythic][cshake]Mythic + CShake[/cshake][/mythic]
+[mythic][neon]Mythic + Neon[/neon][/mythic]
+[mythic][rad]Mythic + Rad[/rad][/mythic]
+
+[cursed][reveal]Cursed + Reveal[/reveal][/cursed]
+[cursed][drop_in]Cursed + DropIn[/drop_in][/cursed]
+[cursed][typewriter]Cursed + Typewriter[/typewriter][/cursed]
+[cursed][flip]Cursed + Flip[/flip][/cursed]
+[cursed][variable]Cursed + Variable[/variable][/cursed]
+[cursed][swing]Cursed + Swing[/swing][/cursed]
+[cursed][noise]Cursed + Noise[/noise][/cursed]
+[cursed][lights]Cursed + Lights[/lights][/cursed]
+[cursed][ghost]Cursed + Ghost[/ghost][/cursed]
+[cursed][matrix]Cursed + Matrix[/matrix][/cursed]
+[cursed][pulse]Cursed + Pulse[/pulse][/cursed]
+[cursed][rainbow]Cursed + Rainbow[/rainbow][/cursed]
+[cursed][tornado]Cursed + Tornado[/tornado][/cursed]
+[cursed][shake]Cursed + Shake[/shake][/cursed]
+[cursed][cshake]Cursed + CShake[/cshake][/cursed]
+[cursed][neon]Cursed + Neon[/neon][/cursed]
+[cursed][rad]Cursed + Rad[/rad][/cursed]
+[cursed][ice]Cursed + Ice[/ice][/cursed]
+[cursed][magma]Cursed + Magma[/magma][/cursed]
+
+[ice][reveal]Ice + Reveal[/reveal][/ice]
+[ice][drop_in]Ice + DropIn[/drop_in][/ice]
+[ice][typewriter]Ice + Typewriter[/typewriter][/ice]
+[ice][flip]Ice + Flip[/flip][/ice]
+[ice][variable]Ice + Variable[/variable][/ice]
+[ice][swing]Ice + Swing[/swing][/ice]
+[ice][noise]Ice + Noise[/noise][/ice]
+[ice][lights]Ice + Lights[/lights][/ice]
+[ice][ghost]Ice + Ghost[/ghost][/ice]
+[ice][matrix]Ice + Matrix[/matrix][/ice]
+[ice][pulse]Ice + Pulse[/pulse][/ice]
+[ice][rainbow]Ice + Rainbow[/rainbow][/ice]
+[ice][tornado]Ice + Tornado[/tornado][/ice]
+[ice][shake]Ice + Shake[/shake][/ice]
+[ice][cshake]Ice + CShake[/cshake][/ice]
+[ice][neon]Ice + Neon[/neon][/ice]
+[ice][rad]Ice + Rad[/rad][/ice]
+[ice][magma]Ice + Magma[/magma][/ice]
+
+[magma][reveal]Magma + Reveal[/reveal][/magma]
+[magma][drop_in]Magma + DropIn[/drop_in][/magma]
+[magma][typewriter]Magma + Typewriter[/typewriter][/magma]
+[magma][flip]Magma + Flip[/flip][/magma]
+[magma][variable]Magma + Variable[/variable][/magma]
+[magma][swing]Magma + Swing[/swing][/magma]
+[magma][noise]Magma + Noise[/noise][/magma]
+[magma][lights]Magma + Lights[/lights][/magma]
+[magma][ghost]Magma + Ghost[/ghost][/magma]
+[magma][matrix]Magma + Matrix[/matrix][/magma]
+[magma][pulse]Magma + Pulse[/pulse][/magma]
+[magma][rainbow]Magma + Rainbow[/rainbow][/magma]
+[magma][tornado]Magma + Tornado[/tornado][/magma]
+[magma][shake]Magma + Shake[/shake][/magma]
+[magma][cshake]Magma + CShake[/cshake][/magma]
+[magma][neon]Magma + Neon[/neon][/magma]
+[magma][rad]Magma + Rad[/rad][/magma]
+[magma][ice]Magma + Ice[/ice][/magma]
+
+[rad][reveal]Rad + Reveal[/reveal][/rad]
+[rad][drop_in]Rad + DropIn[/drop_in][/rad]
+[rad][typewriter]Rad + Typewriter[/typewriter][/rad]
+[rad][flip]Rad + Flip[/flip][/rad]
+[rad][variable]Rad + Variable[/variable][/rad]
+[rad][swing]Rad + Swing[/swing][/rad]
+[rad][noise]Rad + Noise[/noise][/rad]
+[rad][lights]Rad + Lights[/lights][/rad]
+[rad][ghost]Rad + Ghost[/ghost][/rad]
+[rad][matrix]Rad + Matrix[/matrix][/rad]
+[rad][pulse]Rad + Pulse[/pulse][/rad]
+[rad][rainbow]Rad + Rainbow[/rainbow][/rad]
+[rad][tornado]Rad + Tornado[/tornado][/rad]
+[rad][shake]Rad + Shake[/shake][/rad]
+[rad][cshake]Rad + CShake[/cshake][/rad]
+[rad][neon]Rad + Neon[/neon][/rad]
+
+[center]--- UI & CUSTOMSTYLE WRAPPERS ---[/center]
+[press][reveal]Press + Reveal[/reveal][/press]
+[press][drop_in]Press + DropIn[/drop_in][/press]
+[press][flip]Press + Flip[/flip][/press]
+[press][swing]Press + Swing[/swing][/press]
+[press][noise]Press + Noise[/noise][/press]
+[press][lights]Press + Lights[/lights][/press]
+[press][ghost]Press + Ghost[/ghost][/press]
+[press][matrix]Press + Matrix[/matrix][/press]
+[press][pulse]Press + Pulse[/pulse][/press]
+[press][rainbow]Press + Rainbow[/rainbow][/press]
+[press][tornado]Press + Tornado[/tornado][/press]
+[press][shake]Press + Shake[/shake][/press]
+[press][cshake]Press + CShake[/cshake][/press]
+[press][neon]Press + Neon[/neon][/press]
+[press][rad]Press + Rad[/rad][/press]
+
+[marquee start=800 end=-780 speed=180][reveal]Marquee + Reveal[/reveal][/marquee]
+[marquee start=800 end=-780 speed=180][drop_in]Marquee + DropIn[/drop_in][/marquee]
+[marquee start=800 end=-780 speed=180][swing]Marquee + Swing[/swing][/marquee]
+[marquee start=800 end=-780 speed=180][tornado]Marquee + Tornado[/tornado][/marquee]
+[marquee start=800 end=-780 speed=180][rainbow]Marquee + Rainbow[/rainbow][/marquee]
+[marquee start=800 end=-780 speed=180][ghost]Marquee + Ghost[/ghost][/marquee]
+[marquee start=800 end=-780 speed=180][legendary]Marquee + Legendary[/legendary][/marquee]
+[marquee start=800 end=-780 speed=180][ice]Marquee + Ice[/ice][/marquee]
+[marquee start=800 end=-780 speed=180][matrix]Marquee + Matrix[/matrix][/marquee]
+[marquee start=800 end=-780 speed=180][cshake]Marquee + CShake[/cshake][/marquee]
+
+[css style=v1][reveal]CUSTOMSTYLE + Reveal[/reveal][/css]
+[css style=v2][drop_in]CUSTOMSTYLE + DropIn[/drop_in][/css]
+[css style=v3][swing]CUSTOMSTYLE + Swing[/swing][/css]
+[css style=v4][tornado]CUSTOMSTYLE + Tornado[/tornado][/css]
+[css style=v5][rainbow]CUSTOMSTYLE + Rainbow[/rainbow][/css]
+[css style=v6][ghost]CUSTOMSTYLE + Ghost[/ghost][/css]
+[css style=v7][legendary]CUSTOMSTYLE + Legendary[/legendary][/css]
+[css style=v8][ice]CUSTOMSTYLE + Ice[/ice][/css]
+[css style=v1][matrix]CUSTOMSTYLE + Matrix[/matrix][/css]
+[css style=v2][cshake]CUSTOMSTYLE + CShake[/cshake][/css]
+
+[center]--- SPECIAL NESTING ---[/center]
+[reveal][swing][rainbow]Reveal -> Swing -> Rainbow[/rainbow][/swing][/reveal]
+[typewriter][tornado][ghost]Typewriter -> Tornado -> Ghost[/ghost][/tornado][/typewriter]
+[legendary][cshake][matrix]Legendary -> CShake -> Matrix[/matrix][/cshake][/legendary]
+[ice][shake][pulse]Ice -> Shake -> Pulse[/pulse][/shake][/ice]
+[cursed][noise][lights]Cursed -> Noise -> Lights[/lights][/noise][/cursed]
+[magma][flip][variable]Magma -> Flip -> Variable[/variable][/flip][/magma]
+[poor][swing][rainbow]Poor -> Swing -> Rainbow[/rainbow][/swing][/poor]
+[rainbow][tornado][shake]Rainbow -> Tornado -> Shake[/shake][/tornado][/rainbow]
+[matrix][ghost][noise]Matrix -> Ghost -> Noise[/noise][/ghost][/matrix]"
+context_menu_enabled = true
+horizontal_alignment = 1
+custom_effects = [SubResource("RichTextEffect_ibsev"), SubResource("RichTextEffect_t1a68"), SubResource("RichTextEffect_d3gj6"), SubResource("RichTextEffect_yvck8"), SubResource("RichTextEffect_yd5nl"), SubResource("RichTextEffect_6gko5"), SubResource("RichTextEffect_1t7ua"), SubResource("RichTextEffect_emyya"), SubResource("RichTextEffect_t3t47"), SubResource("RichTextEffect_jm0ex"), SubResource("RichTextEffect_0tvr0"), SubResource("RichTextEffect_c3fvd"), SubResource("RichTextEffect_n6vk7"), SubResource("RichTextEffect_gpb41"), SubResource("RichTextEffect_5uoyw"), SubResource("RichTextEffect_22x38"), SubResource("RichTextEffect_vestg"), SubResource("RichTextEffect_t7mei"), SubResource("RichTextEffect_kpiy0"), SubResource("RichTextEffect_vhbtg"), SubResource("RichTextEffect_dxmv8"), SubResource("RichTextEffect_0jfyt"), SubResource("RichTextEffect_v2bj6"), SubResource("RichTextEffect_uhxlo"), SubResource("RichTextEffect_qtplu"), SubResource("RichTextEffect_1bxku"), SubResource("RichTextEffect_yya0y"), SubResource("RichTextEffect_1i8do"), SubResource("RichTextEffect_pmy6j"), SubResource("RichTextEffect_gopfo"), SubResource("RichTextEffect_tinhl")]
+selection_enabled = true
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 678.0
+offset_top = 31.0
+offset_right = -41.0
+offset_bottom = -36.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 2
+focus_mode = 2
+theme_override_colors/selection_color = Color(1, 1, 1, 0.164706)
+theme_override_constants/line_separation = 1
+theme_override_constants/table_h_separation = 120
+theme_override_constants/table_v_separation = 10
+theme_override_font_sizes/normal_font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_q1hwu")
+bbcode_enabled = true
+text = "[drop_in height=600.0 overshoot=30.0 duration=0.2 interval=0.1 repeat=0]YOUR TEXT HERE[/drop_in]
+
+[drop_in height=600.0 overshoot=30.0 duration=0.4 interval=0.4 repeat=0]RAINDROPS[/drop_in]
+
+[drop_in height=00.0 overshoot=.0 duration=0.6 interval=0.6 repeat=1]SLOTMACHINE[/drop_in]
+
+
+[disappear]LOADING[/disappear]
+
+[loading]LOADING DATA...[/loading]
+
+[waviy]WAVY TEXT[/waviy]
+
+[rainbow][drop i=0 speed=1][waviy span=20 speed =1]LOADING[/waviy][/drop][/rainbow]
+[drop i=0]3[/drop]
+[drop i=1]2[/drop]
+[drop i=2]1[/drop]
+[drop i=3 type=1]0[/drop]
+[jitter]Static Jitter (Default)[/jitter]
+[jitter freq=2.0 level=10.0]Smooth Ghostly Wobbly[/jitter]
+
+[jitter level=20.0]High Intensity Glitch[/jitter]
+
+[jitter freq=5.0 level=2.0]Fast Nervous Vibration[/jitter]
+
+
+
+
+[font_size=32][scroll speed=80 height=120]
+CREDITS
+iLLe
+
+
+
+[/scroll][/font_size]
+[scroll speed=30 height=150]
+Hello
+Hola
+Bonjour
+Ciao
+Hallo
+Hello
+[/scroll]
+[cursed level=20 freq=50]CONTAINMENT BREACH (High Chaos)[/cursed]
+
+"
+context_menu_enabled = true
+horizontal_alignment = 1
+custom_effects = [SubResource("RichTextEffect_ibsev"), SubResource("RichTextEffect_t1a68"), SubResource("RichTextEffect_d3gj6"), SubResource("RichTextEffect_yvck8"), SubResource("RichTextEffect_yd5nl"), SubResource("RichTextEffect_6gko5"), SubResource("RichTextEffect_1t7ua"), SubResource("RichTextEffect_emyya"), SubResource("RichTextEffect_t3t47"), SubResource("RichTextEffect_jm0ex"), SubResource("RichTextEffect_0tvr0"), SubResource("RichTextEffect_c3fvd"), SubResource("RichTextEffect_n6vk7"), SubResource("RichTextEffect_gpb41"), SubResource("RichTextEffect_5uoyw"), SubResource("RichTextEffect_22x38"), SubResource("RichTextEffect_vestg"), SubResource("RichTextEffect_t7mei"), SubResource("RichTextEffect_kpiy0"), SubResource("RichTextEffect_vhbtg"), SubResource("RichTextEffect_dxmv8"), SubResource("RichTextEffect_0jfyt"), SubResource("RichTextEffect_v2bj6"), SubResource("RichTextEffect_uhxlo"), SubResource("RichTextEffect_qtplu"), SubResource("RichTextEffect_1bxku"), SubResource("RichTextEffect_yya0y"), SubResource("RichTextEffect_1i8do"), SubResource("RichTextEffect_pmy6j"), SubResource("RichTextEffect_gopfo"), SubResource("RichTextEffect_tinhl")]
+selection_enabled = true
+
+[node name="Pause" type="Button" parent="."]
+process_mode = 3
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 56.0
+offset_top = -97.0
+offset_right = 152.0
+offset_bottom = -55.0
+grow_vertical = 0
+toggle_mode = true
+shortcut = SubResource("Shortcut_n2ck8")
+shortcut_in_tooltip = false
+text = "Pause"
+
+[connection signal="meta_clicked" from="RichTextLabel" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="meta_clicked" from="RichTextLabel2" to="." method="_on_RichTextLabel_meta_clicked"]
+[connection signal="toggled" from="Pause" to="." method="_on_pause_toggled"]
